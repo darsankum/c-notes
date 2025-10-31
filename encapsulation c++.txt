@@ -1,0 +1,78 @@
+//encapsulation c++
+#include <iostream>
+using namespace std;
+ class Teacher {
+     private:
+     // data members
+     string name;
+     string subject;
+     int year;
+     
+ public:
+     void setdetail(string tname,string tsubject,int tyear)
+   {
+     name= tname;
+     subject=tsubject;
+     year=tyear;
+   }
+     //member of the function
+     void display()
+     {
+        cout<<"name :"<<name
+            <<" subject :"<<subject
+            <<"  year :"<<year<<endl;
+     }
+ };
+ 
+
+int main()
+{
+    //create 2 object
+    Teacher t1,t2,t3;
+    //assign value to object
+    /*t1.name=riya
+    t1.sub=eng;
+    t1.year=9;*/
+    t1.setdetail("riya","electronics",9);
+    t2.setdetail("ram","cs",3);
+    t3.setdetail("kumar","eee",5);
+    
+    t1.display();
+    t2.display();
+    t3.display();
+    return 0;
+}
+    
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+//encapsulation c++
+#include <iostream>
+using namespace std;
+ class Teacher {
+      public:
+     // data members
+     string name;
+     string subject;
+     int year;
+     int salary;
+     
+     Teacher(string n,string s,int y, int sa  )
+   { cout<<"name :"<<n;
+     cout<<"subject :";
+     cout<<"year :"<<y;
+     cout<<"salary :"<<sa;
+     cout<<endl;
+     }
+ };
+ 
+
+int main()
+{
+   
+    Teacher t1("riya","electronics",9,5667);
+    Teacher t2 ("ram","EEE",9,9867);
+    return 0;
+}
+    

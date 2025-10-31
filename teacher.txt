@@ -1,0 +1,61 @@
+//new
+#include <iostream>
+using namespace std;
+
+class Teacher
+{
+    public:
+    string name;
+    string dept;
+    int expr;
+    double salary;
+    //
+    Teacher()
+    {
+        cout<<"I am a default constructor"<<endl;
+    }
+void displayinfo()
+    {
+        cout<<"Teacher"<<name<<endl;
+        cout<<"deptmant"<<dept<<endl;
+        cout<<"exprience"<<expr<<endl;
+        cout<<"salary"<<salary<<endl;
+    }
+};
+int main () 
+{
+    Teacher T1;
+}
+
+--------------------------------------------------------------------------------------------------------------------s
+
+//new
+#include <iostream>
+using namespace std;
+
+class Teacher
+{
+    public:
+    string name;
+    string dept;
+    int expr;
+    double salary;
+    //
+    Teacher()
+    {
+      name="ram";
+      dept="EEE";
+      expr=5;
+      salary=123.44;
+        cout<<"Teacher :"<<name<<endl;
+        cout<<"deptmant :"<<dept<<endl;
+        cout<<"exprience :"<<expr<<endl;
+        cout<<"salary :"<<salary<<endl;
+    }
+};
+int main () 
+{
+    Teacher T1;
+   
+    return 0;
+}

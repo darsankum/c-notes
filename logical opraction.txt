@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"a=";
+cin>>a;
+cout<<"b=";
+cin>>b;
+//logical opraction
+cout<<"logical AND :"<<(a>0&&b>0)<<endl;
+cout<<"logical OR :"<<(a>0||b>0)<<endl;
+cout<<"logical not :"<<!(a<0)<<endl;
+    return 0;
+}

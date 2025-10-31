@@ -1,0 +1,27 @@
+// CONSTRUCTOR
+#include <iostream>
+using namespace std;
+class Car 
+{
+ public:
+    string make;
+    string model;
+    int year;
+// Default constructor (no parameters)
+Car() 
+{
+    make ="BENZ”;
+    model ="Xo8";year= 2;
+}
+void displayinfo()
+{
+cout<<year<<" "<< make<<""<<model<< endl;
+}
+};
+int main ()
+{
+    Car mycar;
+    mycar.displayinfo();
+
+return 0;
+}

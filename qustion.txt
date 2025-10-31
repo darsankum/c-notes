@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+class Teacher{
+    public :
+ string name;
+ string sub;
+ char gen;
+ int year;
+};
+int main(){
+    Teacher tea1;
+    cout<<"enter the teacher name :";
+    cin>>tea1.name;
+    getline(cin,tea1.name);
+    cout<<"enter the subject they teach :";
+    cin>>tea1.sub;
+    getline(cin,tea1.sub);
+     cout<<"enter the gender of the teacher :";
+    cin>>tea1.gen;
+     cout<<"enter the years of experience :";
+    cin>>tea1.year;
+    
+    Teacher tea2;
+    cout<<"enter the teacher name :";
+    cin>>tea2.name;
+     getline(cin,tea2.name);
+    cout<<"enter the subject they teach :";
+    cin>>tea2.sub;
+    getline(cin,tea2.sub);
+     cout<<"enter the gender of the teacher :";
+    cin>>tea2.gen;
+     cout<<"enter the years of experience :";
+    cin>>tea2.year;
+ 
+
+    
+    return 0;
+}

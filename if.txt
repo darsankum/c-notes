@@ -1,0 +1,72 @@
+//if
+#include <iostream>
+using namespace std;
+int main()
+{
+int a;
+cout <<"ENTER THE NUMBER :";
+cin>>a;
+
+if (a% 2==0)
+{
+    cout<<a<<"=THIS NUMBER IS EVEN";
+}
+else
+{
+    cout<<a<<"=THIS NUMBER IS ODD";
+}
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//if
+#include <iostream>
+using namespace std;
+int main()
+{
+int a;
+cout <<"ENTER THE NUMBER :";
+cin>>a;
+
+if (a<=18)
+{
+    cout<<"NOT ELIGIBLE TO VOTE "<<endl;
+       cout<<18-a<<"YEAR U MUST WAIT";
+}
+else
+{
+  
+    cout<<" ELIGIBLE TO VOTE";
+ 
+    
+}
+    return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------
+//find largest number#include <iostream>
+using namespace std;
+int main()
+{
+int num1,num2,num3;
+cout<<"NUM 1 :";
+cin>>num1;
+cout<<"NUM 2:";
+cin>>num2;
+cout<<"NUM 3:";
+cin>>num3;
+if (num1>=num2&&num1>=num3)
+{
+    cout<<num1<<" IS THE GREATER NUMBER"<<endl;
+
+}
+else if (num2>=num1&&num2>=num3)
+{
+    cout<<num2<<" IS THE GREATER NUMBER"<<endl;
+
+}
+else (num3>=num1&&num3>=num2);
+{
+    cout<<num3<<"IS THE GREAST NUMBER";
+
+}
+    return 0;
+}

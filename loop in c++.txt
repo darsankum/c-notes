@@ -1,0 +1,6 @@
+loop in c++ 
+loop in c++ are to execute a block of code repeatedly until condition is met.
+they manage repetitive
+1.for loop : use when number of iteration is know beforehand.
+2. while loop: use when the number of iteration is not know and depend on the a condition 
+3. do -while loop: similar to the while loop , but gurantees that the blockof code will be exected at least once before checking the condition

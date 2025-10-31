@@ -1,0 +1,25 @@
+//object,function
+#include <iostream>
+using namespace std;
+
+class Car{
+    public :
+ string brand;
+ string model;
+ int price;
+ int year;
+};
+
+int main (){
+    Car car1;//creating an object of the class
+    car1.brand="BMW";
+    car1.model="B-class";
+    car1.price=500000;
+    car1.year=2024;
+    
+    cout<<car1.brand<<endl;
+    cout<<car1.model<<endl;
+    cout<<car1.price<<endl;
+    cout<<car1.year<<endl;
+    return 0;
+}

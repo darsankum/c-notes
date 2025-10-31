@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    // integer data type store as whole number
+    int a=2;
+    //float will store as single decimal
+    float b=4.8;
+    //double will store n number of decimal
+    double c=6.897;
+    //char will store single chartor
+    char d='x';
+    //string will multiple charator
+    string e="AVIT";
+    cout<<"INTEGER="<<a<<endl;
+    cout<<"FLOAT="<<b<<endl;
+    cout<<"DOUBLE="<<c<<endl;
+    cout<<"CHAR="<<d<<endl;
+    cout<<"STRING="<<e<<endl;
+    return 0;
+}

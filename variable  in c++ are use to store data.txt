@@ -1,0 +1,14 @@
+variable >>> in c++ are use to store data and manipulated through a program 
+
+
+data typein C++
+
+int >>> these are used to store integer values *( whole number)
+
+float >>> used to store decimal values>>> i.e 10.4, 12.3 (single decimal only )
+
+double >>> 10.086
+
+char >>> store single character i.e a,4.
+
+string >> "hello" 'hello' not>>> "hello'.

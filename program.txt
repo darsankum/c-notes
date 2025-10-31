@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    string a;
+    int b;
+    float c;
+    double d;
+    char e;
+    
+    cout<<"NAME: ";
+    cin>>a;
+    
+    cout<<"AGE: ";
+    cin>>b;
+ 
+    cout<<"HEIGHT: ";
+    cin>>c;
+  
+    cout<<"WEIGHT: ";
+    cin>>d;
+  
+    cout<<"BLOOD GROUP: ";
+    cin>>e;
+
+    
+    //Printing the output 
+    cout<<"My name is :"<<a<<endl;
+    cout<<"My age is :"<<b<<endl;
+    cout<<"My Height  is :"<<c<<endl;
+    cout<<"My Weight is :"<<d<<endl;
+    cout<<"My Bloood group is :"<<e<<endl;
+    return 0;
+}
